@@ -1,0 +1,47 @@
+ { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    
+    text-align: center;
+   
+}
+body  {
+
+    background: linear-gradient( blue, green);
+    margin: 40px;
+}
+
+
+.perfil1{
+
+    max-width: 200px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px white;
+    
+}
+
+h2 {
+
+    color: crimson;
+}
+
+
+h3 {
+
+    color: white;
+}
+
+input[ type="text"], input[ type="email"] {
+ min-width: 100px;
+ min-height: 30px;
+ margin-bottom: 5px;
+ border-radius: 10px;
+ border: orange solid;
+}
+input
+
+
