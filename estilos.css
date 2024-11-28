@@ -44,7 +44,6 @@ input[ type="text"], input[ type="email"] {
 }
 
 
-
 .button{
 
     background-color: blue;
@@ -71,6 +70,6 @@ table {
     border-collapse: collapse;
     width: 100%;
     td, th {  border: 1px solid black;}
-    background-color: white;
+    background-color: white;  
     
 }
