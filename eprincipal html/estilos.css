@@ -47,6 +47,11 @@ min-height: 10vh;
     grid-area:"parte5";
  }
 
+
+  .footer
+
+
+
 /*CSS GRIP*/
 
  .page {   
@@ -74,7 +79,7 @@ min-height: 10vh;
       grid-template: 
       "parte1  parte1  parte1  parte1  parte1" 50px
       "parte2  parte3  parte3  parte3  parte4" auto 
-      "parte2  parte3  parte5 parte5  parte5"
+      "parte2  parte3  parte5 parte5  parte5" 50px
       /20% auto auto auto 20%; 
    
 
