@@ -11,7 +11,7 @@ h1 {
 }
 body  {
 
-    background: linear-gradient( blue, green);
+    background: linear-gradient(white, rgb(67, 66, 73));
     margin: 40px;
 }
 
@@ -64,6 +64,7 @@ input[ type="text"], input[ type="email"] {
     border: #555 2px solid;
     box-shadow:  5px 5px 5px #555 ;
     color: pink;
+
 }
 
 table {
@@ -73,3 +74,43 @@ table {
     background-color: white;  
     
 }
+
+
+/* estilos del principal html*/
+.parte1 {
+    background-color: khaki;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+.parte2 {
+    background-color:lightblue ;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.parte3 {
+    background-color: lightcoral;
+    border-radius: 10px;
+    padding: 1rem;
+
+}
+.parte4 {
+   background-color: mediumpurple;
+   border-radius: 10px;
+   padding: 1rem;
+
+}
+ .parte5 {
+    background-color: rgb(143, 238, 143);
+    padding: 1rem;
+    border-radius: 10px;
+    
+ }
+
+ body {
+    border-radius:
+ }
+
+ body {
+    text-align: center;
+ }

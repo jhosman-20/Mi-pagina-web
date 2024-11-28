@@ -1,0 +1,90 @@
+body {
+background: linear-gradient(black, white);
+min-height: 10vh;
+
+
+
+}
+
+
+
+.parte1 {
+    background-color: khaki;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    grid-area:"parte1";
+}
+.parte2 {
+    background-color:lightblue ;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    grid-area:"parte2";
+}
+.parte3 {
+    background-color: lightcoral;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    text-align: center;
+    padding: 2rem;
+    grid-area:"parte3"; 
+}
+.parte4 {
+   background-color: mediumpurple;
+   border-radius: 10px;
+   padding: 1rem;
+   text-align: center;
+   grid-area:"parte4";
+   
+}
+ .parte5 {
+    background-color: rgb(143, 238, 143);
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    grid-area:"parte5";
+ }
+
+/*CSS GRIP*/
+
+ .page {   
+   display: grid;
+   gap: 2px;
+   grid-template: 
+   "parte1" 50px
+   "parte2" 50px
+   "parte3" auto
+   "parte4" 100px
+   "parte5" 50px
+
+   @media ( min-height: 768px;) {
+      grid-template: 
+      "parte1  parte1  parte1" 50px
+      "parte2  parte2  parte2" 50px
+      "parte3  parte3  parte4" auto  50px
+      "parte4  parte4  parte4" 100px
+      "parte5  parte5  parte5" 50px ;
+   
+   }
+
+
+   @media( min-width: 1024px;) {
+      grid-template: 
+      "parte1  parte1  parte1  parte1  parte1" 50px
+      "parte2  parte3  parte3  parte3  parte4" auto 
+      "parte2  parte3  parte5 parte5  parte5"
+      /20% auto auto auto 20%; 
+   
+
+
+
+
+      
+   }
+   
+
+
+ }
+
