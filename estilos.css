@@ -7,9 +7,10 @@
 h1 {
     
     text-align: center;
+    
    
 }
-body  {
+.page {
 
     background: linear-gradient(white, rgb(67, 66, 73));
     margin: 40px;
@@ -35,12 +36,13 @@ h3 {
     color: white;
 }
 
-input[ type="text"], input[ type="email"] {
- min-width: 100px;
+input[ type="text"], input[ type="email"] [ type="number"] {
+ min-width: 200px;
  min-height: 30px;
  margin-bottom: 5px;
- border-radius: 10px;
+ border-radius:px;
  border: orange solid;
+
 }
 
 
@@ -74,43 +76,18 @@ table {
     background-color: white;  
     
 }
-
-
-/* estilos del principal html*/
-.parte1 {
-    background-color: khaki;
-    border-radius: 10px;
-    padding: 1rem;
-    text-align: center;
-}
-.parte2 {
-    background-color:lightblue ;
-    border-radius: 10px;
-    padding: 1rem;
-}
-.parte3 {
-    background-color: lightcoral;
-    border-radius: 10px;
-    padding: 1rem;
-
-}
-.parte4 {
-   background-color: mediumpurple;
-   border-radius: 10px;
-   padding: 1rem;
-
-}
- .parte5 {
-    background-color: rgb(143, 238, 143);
-    padding: 1rem;
-    border-radius: 10px;
+body {
+    border-radius:100px;
     
+
  }
 
- body {
-    border-radius:
- }
+ #n1, #n2 {
+ min-width: 200px;
+ min-height: 30px;
+ margin-bottom: 5px;
+ border-radius:50px;
+ border: orange solid;
 
- body {
-    text-align: center;
+   
  }
